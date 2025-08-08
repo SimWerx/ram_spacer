@@ -1,0 +1,69 @@
+# Ram 5500 Mirror Spacer Project - Git Ignore
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Development Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# CAD Temporary Files
+*.dwl
+*.dwl2
+*.bak
+
+# Large Files (if needed for GitHub)
+# *.stl
+# *.ply
+
+# Archive/Backup Files in Root
+archive/
+
+# Documentation Build Files
+docs/_build/
+docs/build/
+
+# Log Files
+*.log
+
+# OS Generated Files
+Icon?
+
+# Project Specific
+REPO_ORGANIZATION_PLAN.md
+
+# Ignore DXF/DFX under source 3d models
+source-data/3d-models/**/*.dxf
+
+# Ignore PLY under source 3d models
+source-data/3d-models/**/*.ply
+
+# Ignore specific large OBJ file over 100MB
+source-data/3d-models/mirror-with-out-gasket/ram-mirror-obj/8_6_2025.obj
